@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/walkingMode"
+        android:src="@drawable/walking"/>
+
+    <ImageView
+        android:id="@+id/drivingMode"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/car" />
+
+    <ImageView
+        android:id="@+id/transitMode"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/train" />
+
+    <ImageView
+        android:id="@+id/clearMap"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/clearpage" />
+
+</RelativeLayout>

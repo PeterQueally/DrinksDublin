@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "659907587423",
+    "firebase_url": "https://drinksdublin-513b8.firebaseio.com",
+    "project_id": "drinksdublin-513b8",
+    "storage_bucket": "drinksdublin-513b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659907587423:android:6d0079ae8a93f7b46c9aea",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659907587423-q6j1p1gdt2hnivcm02ebsiv231ut0038.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "93d4f2f63d0149e62a120a2b509ad593a57009f8"
+          }
+        },
+        {
+          "client_id": "659907587423-e64hd0rg5kh5e3c6mkn7p1lak82h49r3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTyHLfNQoTsy7qoDNm1zvWfzTkivshi0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659907587423-e64hd0rg5kh5e3c6mkn7p1lak82h49r3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

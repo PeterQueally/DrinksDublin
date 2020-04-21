@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">myapplication</string>
+
+    <string-array name="drinkTitles">
+        <item>Budweiser</item>
+        <item>Carlsberg</item>
+        <item>Coorslight</item>
+        <item>Corona</item>
+        <item>Desperado</item>
+        <item>Guinness</item>
+        <item>Heineken</item>
+        <item>Miller</item>
+        <item>Peroni</item>
+        <item>Tiger</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

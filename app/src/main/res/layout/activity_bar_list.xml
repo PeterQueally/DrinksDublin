@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".BarListActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/barListRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/directionsBtn"
+        android:background="@drawable/gradientbtn"
+        android:textColor="#c8c0ff"
+        android:layout_width="140dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:text="Get Directions!"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.914" />
+</androidx.constraintlayout.widget.ConstraintLayout>
